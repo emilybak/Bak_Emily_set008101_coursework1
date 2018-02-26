@@ -1,0 +1,24 @@
+body {
+    background-color: #cccccc;
+}
+
+h1 {
+    color: #616161;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+a {
+    font-family: verdana;
+    color: #797474;
+    font-size: 25px;
+}
+a:hover {
+  color: #030100;
+}
+img {
+    border: solid;
+    border-color: #FEFBFB;
+    padding: inherit;
+}

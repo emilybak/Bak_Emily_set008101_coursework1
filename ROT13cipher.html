@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Project1design.css">
+        <title>ROT13 Cipher</title >
+    </head>
+    <body>
+        <h1>Please enter the message you would like to encode</h1>
+        <p>About ROT13 Cipher: ROT13 Cipher is a classic cyphering system that was developed similarly
+        to the most famour Caesar Cipher. ROT13 Cipher is very easy to follow and is the same to
+        encode as to decode. Simply add 13 letters to the inputted letter to encode the message and
+        subtract 13 letters to decode the message.</p>
+        
+        <div id="input_area">
+            <textarea rows="1" cols="50" autofocus id="message">Write the message here
+            </textarea >
+            <button type ="button" onclick="encode()" id="encode_button">Encodify Everything
+            </button >
+            <button type="button" onclick="decode()" id="decode_button">Decode Everything
+            </button>
+        </div>
+        
+        <div id="output_area">
+            <p>
+            This is your encoded message:<br /> <div id="output"></div>
+            </p>
+             <p>
+            This is your decoded message:<br/> <div id="output2"></div>
+            </p>
+        <div>
+        <script type="text/javascript" src="ProjectROTcipher.js"></script>
+    </body>
+</htmL>
